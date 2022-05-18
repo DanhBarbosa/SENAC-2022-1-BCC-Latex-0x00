@@ -9,8 +9,8 @@ int main(int argc, char *argv[]) {
     if (argc == 2)
         base = atoi(argv[1]);
     else 
-        base = 2;
-  
+        base = 6 ; 
+ 
     gerar_tabuada(base);
 
     exit(EXIT_SUCCESS);
